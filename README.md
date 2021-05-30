@@ -1,4 +1,8 @@
 ## Flashing instructions for 7tPro (hotdog) & 7t (hotdogb):
+**Disclaimer:**
+* We're not responsible for bricked devices, dead SD card or anything happens with your device
+* Flash on your own risk/knowledge.
+* Take your data backup before proceed.
 
 **Before flashing make sure you've already flashed OOS 11 on both slot, 
 If yes then proceed, if No Please follow Pre-install instructions:** [**HERE**](https://wiki.lineageos.org/devices/hotdog/install#pre-install-instructions)
