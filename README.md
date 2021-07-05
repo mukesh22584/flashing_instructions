@@ -27,8 +27,8 @@ If yes then proceed, if No Please follow Pre-install instructions:** [**HERE**](
 
 - Payload dumper: [**HERE**](https://androidfilehost.com/?fid=818070582850510260)
 
-- 7t (hotdogb) recovery: [**HERE**](https://sourceforge.net/projects/my-builds/files/oneplus7t-pro/hotdogb/recovery.img/download)
+- 7t (hotdogb) recovery: [**HERE**](https://sourceforge.net/projects/my-builds/files/oneplus7t-pro/hotdogb/)
 
-- 7tPro (hotdog) recovery: [**HERE**](https://sourceforge.net/projects/my-builds/files/oneplus7t-pro/hotdog/recovery.img/download)
+- 7tPro (hotdog) recovery: [**HERE**](https://sourceforge.net/projects/my-builds/files/oneplus7t-pro/hotdog/)
 
 - Fastboot flash zip: [**HERE**](https://sourceforge.net/projects/my-builds/files/oneplus7t-pro/fastbootFlash.zip/download/)
