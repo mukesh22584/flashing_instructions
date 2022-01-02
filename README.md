@@ -3,7 +3,7 @@
     - Flash on your own risk/knowledge.
     - Take your data backup before proceed.
 --------------------------------------------------------------------------------------------------
-**Flashing Instructions for 7pro (guacamole)**
+## Flashing Instructions for 7pro (guacamole):
 <details>
 <summary>Click to expand !</summary>
 
@@ -31,7 +31,7 @@
 </details>
 
 -------------------------------------------------------------
-**Flashing Instructions for 7t (hotdogb) and 7tPro (hotdog)**
+## Flashing Instructions for 7t (hotdogb) and 7tPro (hotdog):
 <details>
 <summary>Click to expand !</summary>
 
@@ -58,6 +58,37 @@
  -Now once again do a **Factory reset** & reboot.
 </details>
 
----------------------------------------------------------------------------------------------------
-**Get recovery for your device:** [**HERE**](https://sourceforge.net/projects/my-builds/files/Misc/A12/)
+-------------------------------------------------------------
+## Flashing Instructions for OnePlus 9Pro (lemonadep):
+<details>
+<summary>Click to expand !</summary>
+
+ -If coming from OOS A12, Downgrade to OOS 11,
+ 
+ -If coming from OOS A11 or any AOSP based A11/A12 ROM then proceed,
+ 
+ -Reboot to fastboot & flash recovery using command:
+
+                                                                                                                  
+    fastboot flash boot <recovery_filename>.img
+
+ -Now reboot to recovery & factory reset.
+
+ -Back to recovery main page tap **Apply update** then **Apply from ADB**.
+
+ -Now sideload ROM.zip using command.
+
+                                                                                                                  
+    adb sideload <rom_filename>.zip
+
+ -If getting message **Signature verification failed** click **yes**.
+
+ -You'll see process stuck on 47%, Don't worry you'll get **Success** message just wait.
+
+ -Now once again do a **Factory reset** & reboot.
+</details>
+
+--------------------------------------------------------------------------------------------------------------------
+**Get recovery for your device:** [**HERE**](https://sourceforge.net/projects/my-builds/files/Misc/Project-Xtended/)
+
 
