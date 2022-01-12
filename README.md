@@ -58,8 +58,8 @@
  -Now once again do a **Factory reset** & reboot.
 </details>
 
--------------------------------------------------------------
-## Flashing Instructions for OnePlus 9Pro (lemonadep):
+-------------------------------------------------------------------------------
+## Flashing Instructions for OnePlus 9 (lemonade) and OnePlus 9Pro (lemonadep):
 <details>
 <summary>Click to expand !</summary>
 
