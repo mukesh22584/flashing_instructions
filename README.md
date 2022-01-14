@@ -61,14 +61,36 @@
 -------------------------------------------------------------------------------
 ## Flashing Instructions for OnePlus 9 (lemonade) and OnePlus 9Pro (lemonadep):
 <details>
-<summary>Click to expand !</summary>
-
- -If coming from OOS A12, Downgrade to OOS 11,
+<summary>If coming from OOS A12, Downgrade to OOS 11:</summary>
  
- -If coming from OOS A11 or any AOSP based A11/A12 ROM then proceed,
- 
- -Reboot to fastboot & flash recovery using command:
+ -Flash Xtended recovery ( Link in bottom of this page).
+                                                                                                                  
+    fastboot flash boot <recovery_filename>.img
 
+ -Download copy-partition zip from [**HERE**](https://androidfilehost.com/?fid=2188818919693768129)
+ 
+ -Sideload copy-partition zip.
+ 
+ -Reboot to recovery & factory reset
+ 
+ -Back to recovery main page tap **Apply update** then **Apply from ADB**.
+
+ -Now sideload ROM.zip using command.
+
+                                                                                                                  
+    adb sideload <rom_filename>.zip
+
+ -If getting message **Signature verification failed** click **yes**.
+
+ -You'll see process stuck on 47%, Don't worry you'll get **Success** message just wait.
+
+ -Now once again do a **Factory reset** & reboot.
+ </details>
+ 
+ <details>
+<summary>If coming from OOS A11 or any AOSP based A11/A12 ROM then proceed:</summary>
+ 
+ -Flash Xtended recovery ( Link in bottom of this page).
                                                                                                                   
     fastboot flash boot <recovery_filename>.img
 
