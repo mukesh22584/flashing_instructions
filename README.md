@@ -5,117 +5,95 @@
 - Take your data backup before proceed.
 ~~~
 
-### Flashing Instructions for OnePlus 7t (hotdogb) and OnePlus 7tPro (hotdog):
+<b>Flashing Instructions for OnePlus 7t (hotdogb) and OnePlus 7tPro (hotdog):</b>
 <details>
+<br>
 <summary>Click Here to Expand</summary>
- 
-**If coming from OOS A11:**
 
-1- Flash Xtended recovery ( Link in bottom of this page).
-~~~                                                                                                                  
-fastboot flash recovery <recovery_filename>.img
+### Update your device to OOS12 First. So follow instructions carefully.</b>
+1. Backup all your Phone data.
+2. Download your respective device Oxygenos zip.
+  Fastboot rom & OxygenOS 12.1 zip (Both) [**FromHere**](https://mega.nz/folder/ehwFXDgI#kxkU48zVlBE7i3-UkyLwkg)
+3. Extract Fastboot ROM zip.
+4. Reboot your device to fastbootD & connect to PC.
+5. Connect your phone to PC.
+6. Go to Extracted Fastboot rom folder.
+7. double click on 7Tand7TPro_A11_OOS_flash_all.bat file.
+8. It'll take a little time.
+9. After completed above process Reboot to recovery.
+10. Factory Reset & reboot.
+11. Now you're on OxygenOS 11.
+12. Now Copy Oxygenos 12.1 Zip to your phone.
+13. Go to System > update > Local update & select OxygenOS 12.1 zip.
+14. Update to OxygenOS12.
+15. After update reboot to bootloader.
+16. flash recovery.img 
+17. Reboot to recovery > Apply update > Apply from ADB
+18. Download & Sideload copy-partition zip [**HERE**](https://sourceforge.net/projects/my-builds/files/Project-Xtended/XT/copy-partitions-20220613-signed.zip/download)
 ~~~
-2- Download copy-partition zip from [**HERE**](https://sourceforge.net/projects/my-builds/files/Misc/Project-Xtended/copy-partitions-20220613-signed.zip/download)
- 
-3- Sideload copy-partition zip.
- 
-4- Reboot to recovery & factory reset
- 
-5- Back to recovery main page tap **Apply update** then **Apply from ADB**.
-
-6- Now sideload ROM.zip using command.
+adb sideload copy-partitions-20220613-signed.zip
+~~~
+19. After complete Factory reset & reboot to recovery > Apply update > Apply from ADB
+20. Now Sideload Xtended ROM zip.
 ~~~
 adb sideload <rom_filename>.zip
 ~~~
-7- Once again reboot to recovery
+21. Now reboot to system.
 
->__Warning__
-~~~diff
-- Don't reboot to system.
-~~~
+### Notes: 
+- <b>Confused ?</b> So in easy words.<b>Update your device to OxygenOS 12</b>
+- Now follow Step 15-20
 
-8- Now sideload Gapps.zip using command.
-~~~
-adb sideload <Gapps_filename>.zip
-~~~
-
-9- Now reboot to system.
-
->__Note__
-
-If coming from AOSP based A13 ROM Just **Skip Step 2 & 3**
+### Be careful:
+- Before Download Check folder name for your Device
+- Fastboot flash bat files only for Windows users
+- Linux user open that file & execute commands manually
+- Gapps included so no need to flash/sideload GApps
 
 </details>
 
------------------
+----
 
-### Flashing Instructions for OnePlus 9Pro (lemonadep):
+<b>Flashing Instructions for OnePlus 9Pro (lemonadep):</b>
 <details>
+<br>
 <summary>Click Here to expand</summary>
- 
-**Make sure you're using c63 Firmware:**
 
-1- Flash Xtended recovery package ( Link in bottom of this page).
-~~~                                                                                                                  
-fastboot flash dtbo dtbo.img
-fastboot flash vendor_boot vendor_boot.img
-fastboot flash boot boot.img
-~~~
-2- Download copy-partition zip from [**HERE**](https://sourceforge.net/projects/my-builds/files/Misc/Project-Xtended/copy-partitions-20220613-signed.zip/download)
- 
-3- Sideload copy-partition zip.
- 
-4- Reboot to recovery & factory reset
- 
-5- Back to recovery main page tap **Apply update** then **Apply from ADB**.
-
-6- Now sideload ROM.zip using command.
+### Firmware C63 already included:
+1. Download Xtended recovery package [HERE](https://sourceforge.net/projects/my-builds/files/Project-Xtended/XT/OnePlus_9Pro-lemonadep/)
+2. Extract recovery package
+3. Reboot to bootloader & connect your phone to PC
+4. double click on <b>flash.bat</b> file
+5. Now reboot to recovery & factory reset
+6. Back to recovery main page tap > Apply update > Apply from ADB
+7. Now sideload ROM.zip using command.
 ~~~
 adb sideload <rom_filename>.zip
 ~~~
-7- Once again reboot to recovery
+8. Now reboot to system.
 
->__Warning__
-~~~diff
-- Don't reboot to system.
-~~~
-
-8- Now sideload Gapps.zip using command.
-~~~
-adb sideload <Gapps_filename>.zip
-~~~
-
-9- Now reboot to system.
-
->__Note__
-
-If coming from AOSP based A13 ROM Just **Skip Step 2 & 3**
-
+### Be careful:
+- If coming from Oxygenos or any other AOSP based A13 ROM <b>Clean Flash is Mandatory</b>
+- Gapps included so no need to flash/sideload GApps
 </details>
 
----------------------
-### To update ROM :
+----
+
+<b>To update ROM :</b>
 <details>
+<br>
 <summary>Already on Xtended and want to update new version:</summary>
 
-1- Reboot to recovery
-
-2- Now sideload ROM.zip using command.
+1. Reboot to recovery > Apply update > Apply from ADB
+2. Now sideload ROM.zip using command.
 ~~~
 adb sideload <rom_filename>.zip
 ~~~
-3- Once again reboot to recovery
-
->__Warning__
-~~~diff
-- Don't reboot to system.
-~~~
-
-4- Now sideload Gapps.zip using command.
-~~~
-adb sideload <Gapps_filename>.zip
-~~~
+3. Now reboot to system.
+### Notes:
+- Every version isn't upgradable. It depends on system changes, So please follow release post first.
 </details>
 
-------
-**Get recovery for your device:** [**HERE**](https://sourceforge.net/projects/my-builds/files/Misc/Project-Xtended/)
+----
+
+**Get recovery for your device:** [**HERE**](https://sourceforge.net/projects/my-builds/files/Project-Xtended/XT/)
