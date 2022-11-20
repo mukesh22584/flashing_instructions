@@ -4,50 +4,32 @@
 - Flash on your own risk/knowledge.
 - Take your data backup before proceed.
 ~~~
-
 <b>Flashing Instructions for OnePlus 7t (hotdogb) and OnePlus 7tPro (hotdog):</b>
 <details>
 <br>
 <summary>Click Here to Expand</summary>
 
-### Update your device to OOS12 First. So follow instructions carefully.</b>
+### Follow instructions carefully.
 1. Backup all your Phone data.
-2. Download your respective device Oxygenos zip.
-  Fastboot rom & OxygenOS 12.1 zip (Both) [**FromHere**](https://mega.nz/folder/ehwFXDgI#kxkU48zVlBE7i3-UkyLwkg)
-3. Extract Fastboot ROM zip.
-4. Reboot your device to fastbootD & connect to PC.
-5. Connect your phone to PC.
-6. Go to Extracted Fastboot rom folder.
-7. double click on 7Tand7TPro_A11_OOS_flash_all.bat file.
-8. It'll take a little time.
-9. After completed above process Reboot to recovery.
-10. Factory Reset & reboot.
-11. Now you're on OxygenOS 11.
-12. Now Copy Oxygenos 12.1 Zip to your phone.
-13. Go to System > update > Local update & select OxygenOS 12.1 zip.
-14. Update to OxygenOS12.
-15. After update reboot to bootloader.
-16. flash recovery.img 
-17. Reboot to recovery > Apply update > Apply from ADB
-18. Download & Sideload copy-partition zip [**HERE**](https://sourceforge.net/projects/my-builds/files/Project-Xtended/XT/copy-partitions-20220613-signed.zip/download)
+2. Update to OxygenOS12.
+3. Unlock bootloader & enable **USB debuging**
+4. Reboot to bootloader.
+5. flash recovery.img 
+6. Reboot to recovery
+7. Download & Sideload copy-partition zip [**HERE**](https://sourceforge.net/projects/my-builds/files/Project-Xtended/XT/copy-partitions-20220613-signed.zip/download)
+8. Sideload copy-partition zip
 ~~~
 adb sideload copy-partitions-20220613-signed.zip
 ~~~
-19. After complete Factory reset & reboot to recovery > Apply update > Apply from ADB
-20. Now Sideload Xtended ROM zip.
+9. After complete, Factory reset & again go to **Apply update > Apply from ADB**
+10. Now Sideload Xtended ROM zip.
 ~~~
 adb sideload <rom_filename>.zip
 ~~~
-21. Now reboot to system.
-
-### Notes: 
-- <b>Confused ?</b> So in easy words.<b>Update your device to OxygenOS 12</b>
-- Now follow Step 15-20
+11. Now reboot to system.
 
 ### Be careful:
-- Before Download Check folder name for your Device
-- Fastboot flash bat files only for Windows users
-- Linux user open that file & execute commands manually
+- Backup all your Data
 - Gapps included so no need to flash/sideload GApps
 
 </details>
