@@ -14,49 +14,52 @@
 2. Update to OxygenOS12.
 3. Unlock bootloader & enable **USB debuging**
 4. Reboot to bootloader.
-5. flash recovery.img 
-6. Reboot to recovery
-7. Download & Sideload copy-partition zip [**HERE**](https://sourceforge.net/projects/my-builds/files/Project-Xtended/XT/copy-partitions-20220613-signed.zip/download)
-8. Sideload copy-partition zip
+5. Download Xtended recovery package for your device [HERE](https://sourceforge.net/projects/my-builds/files/Project-Xtended/XT/)
+6. flash recovery.img 
+7. Reboot to recovery
+8. Download & Sideload copy-partition zip [**HERE**](https://sourceforge.net/projects/my-builds/files/Project-Xtended/XT/copy-partitions-20220613-signed.zip/download)
+9. Sideload copy-partition zip
 ~~~
 adb sideload copy-partitions-20220613-signed.zip
 ~~~
-9. After complete, Factory reset & again go to **Apply update > Apply from ADB**
-10. Now Sideload Xtended ROM zip.
+10. After complete, Factory reset & again go to **Apply update > Apply from ADB**
+11. Now Sideload Xtended ROM zip.
 ~~~
 adb sideload <rom_filename>.zip
 ~~~
-11. Now reboot to system.
+12. Now reboot to system.
 
 ### Be careful:
 - Backup all your Data
 - Gapps included so no need to flash/sideload GApps
-
 </details>
 
 ----
 
-<b>Flashing Instructions for OnePlus 9Pro (lemonadep):</b>
+<b>Flashing Instructions for OnePlus 9 (lemonade) & 9Pro (lemonadep):</b>
 <details>
 <br>
 <summary>Click Here to expand</summary>
 
-### Firmware C63 already included:
-1. Download Xtended recovery package [HERE](https://sourceforge.net/projects/my-builds/files/Project-Xtended/XT/OnePlus_9Pro-lemonadep/)
-2. Extract recovery package
-3. Reboot to bootloader & connect your phone to PC
-4. double click on <b>flash.bat</b> file
-5. Now reboot to recovery & factory reset
-6. Back to recovery main page tap > Apply update > Apply from ADB
-7. Now sideload ROM.zip using command.
+### Follow instructions carefully.
+1. Download Xtended recovery package for your device [HERE](https://sourceforge.net/projects/my-builds/files/Project-Xtended/XT/)
+   * Extract recovery package zip
+   * Reboot to bootloader & connect your phone to PC
+   * Double click on <b>flash.bat</b> file
+2. Now reboot to recovery > advance > fastboot
+3. Download C66 firmware [HERE](https://sourceforge.net/projects/my-builds/files/Project-Xtended/XT/)
+   * Extract zip, Go to fastbootD mode & execute flash.bat
+4. Back to recovery main page tap > Apply update > Apply from ADB
+5. Now sideload ROM.zip using command.
 ~~~
 adb sideload <rom_filename>.zip
 ~~~
-8. Now reboot to system.
+6. Now reboot to system.
 
 ### Be careful:
 - If coming from Oxygenos or any other AOSP based A13 ROM <b>Clean Flash is Mandatory</b>
 - Gapps included so no need to flash/sideload GApps
+- Flash recovery in bootloader mode & firmware into FastbootD mode
 </details>
 
 ----
