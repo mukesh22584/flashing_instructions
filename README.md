@@ -57,6 +57,30 @@
 
 ----
 
+<b>Flashing Instructions for Nothing phone1 (Spacewar):</b>
+<details>
+<br>
+<summary>Click Here to Expand</summary>
+
+<b> Follow before proceed: </b>
+- Backup all your Data
+- Gapps included so no need to flash/sideload GApps
+- Recovery Package:[HERE](https://sourceforge.net/projects/my-builds/files/Project-Xtended/XT/Spacewar/Spacewar-RecoveryFlash.zip/download)
+
+<b> Now start Flashing </b>
+1. Reboot to bootloader & connect your phone to PC
+2. Extract above recovery package
+3. Execute flash.bat file
+4. Now reboot to recovery
+5. Factory reset > Format data/factory reset
+6. Back to recovery home page & Apply update > Apply from ADB
+7. Open command prompt & sideload rom using command *__adb sideload <rom_filename>.zip__*
+8. Reboot
+
+</details>
+
+----
+
 <b>To update ROM :</b>
 <details>
 <br>
