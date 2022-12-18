@@ -9,29 +9,23 @@
 <br>
 <summary>Click Here to Expand</summary>
 
-### Follow instructions carefully.
-1. Backup all your Phone data.
-2. Update to OxygenOS12.
-3. Unlock bootloader & enable **USB debuging**
-4. Reboot to bootloader.
-5. Download Xtended recovery package for your device [HERE](https://sourceforge.net/projects/my-builds/files/Project-Xtended/XT/)
-6. flash recovery.img 
-7. Reboot to recovery
-8. Download & Sideload copy-partition zip [**HERE**](https://sourceforge.net/projects/my-builds/files/Project-Xtended/XT/copy-partitions-20220613-signed.zip/download)
-9. Sideload copy-partition zip
-~~~
-adb sideload copy-partitions-20220613-signed.zip
-~~~
-10. After complete, Factory reset & again go to **Apply update > Apply from ADB**
-11. Now Sideload Xtended ROM zip.
-~~~
-adb sideload <rom_filename>.zip
-~~~
-12. Now reboot to system.
-
-### Be careful:
+<b> Follow before proceed: </b>
 - Backup all your Data
+- OxygenOS 12 in both slot
 - Gapps included so no need to flash/sideload GApps
+- Download Recovery package : [**HERE**](https://sourceforge.net/projects/my-builds/files/Project-Xtended/XT/)
+- Download Sideload copy-partition zip [**HERE**](https://sourceforge.net/projects/my-builds/files/Project-Xtended/XT/copy-partitions-20220613-signed.zip/download)
+
+<b> Now start Flashing </b>
+1. Reboot to bootloader.
+2. flash recovery.img 
+3. Reboot to recovery
+4. Sideload copy-partition zip by using command *__adb sideload copy-partitions-20220613-signed.zip__*
+5. After complete, Back to recovery home page & tap Factory reset > Format data/factory reset
+6. Back to recovery home page & tap > Apply update > Apply from ADB
+7. Now sideload rom using command *__adb sideload <rom_filename>.zip__*
+8. Now reboot to system.
+
 </details>
 
 ----
@@ -41,25 +35,24 @@ adb sideload <rom_filename>.zip
 <br>
 <summary>Click Here to expand</summary>
 
-### Follow instructions carefully.
-1. Download Xtended recovery package for your device [HERE](https://sourceforge.net/projects/my-builds/files/Project-Xtended/XT/)
-   * Extract recovery package zip
-   * Reboot to bootloader & connect your phone to PC
-   * Double click on <b>flash.bat</b> file
-2. Now reboot to recovery > advance > fastboot
-3. Download C66 firmware [HERE](https://sourceforge.net/projects/my-builds/files/Project-Xtended/XT/)
-   * Extract zip, Go to fastbootD mode & execute flash.bat
-4. Back to recovery main page tap > Apply update > Apply from ADB
-5. Now sideload ROM.zip using command.
-~~~
-adb sideload <rom_filename>.zip
-~~~
-6. Now reboot to system.
-
-### Be careful:
-- If coming from Oxygenos or any other AOSP based A13 ROM <b>Clean Flash is Mandatory</b>
+<b> Follow before proceed: </b>
+- Backup all your Data
+- It's mandatory to be on C66 firmware
 - Gapps included so no need to flash/sideload GApps
-- Flash recovery in bootloader mode & firmware into FastbootD mode
+- Download Recovery package: [HERE](https://sourceforge.net/projects/my-builds/files/Project-Xtended/XT/)
+- Download C66 firmware: [HERE](https://sourceforge.net/projects/my-builds/files/Project-Xtended/XT/)
+
+<b> Now start Flashing </b>
+1. Extract recovery package zip
+2. Reboot to bootloader & connect your phone to PC
+3. Double click on __flash.bat__
+4. Now reboot to recovery > advance > fastboot
+5. Extract firmware zip, Go to fastbootD mode & double click on __flash.bat__
+6. Back to recovery home page & tap Factory reset > Format data/factory reset
+6. Back to recovery home page & tap > Apply update > Apply from ADB
+7. Now sideload rom using command *__adb sideload <rom_filename>.zip__*
+8. Now reboot to system.
+
 </details>
 
 ----
@@ -69,16 +62,15 @@ adb sideload <rom_filename>.zip
 <br>
 <summary>Already on Xtended and want to update new version:</summary>
 
-1. Reboot to recovery > Apply update > Apply from ADB
-2. Now sideload ROM.zip using command.
-~~~
-adb sideload <rom_filename>.zip
-~~~
-3. Now reboot to system.
-### Notes:
+1. Reboot to recovery
+2. Apply update > Apply from ADB
+3. Open command prompt & sideload rom using command *__adb sideload <rom_filename>.zip__*
+4. Reboot
+
+<b>Notes:</b>
 - Every version isn't upgradable. It depends on system changes, So please follow release post first.
 </details>
 
 ----
 
-**Get recovery for your device:** [**HERE**](https://sourceforge.net/projects/my-builds/files/Project-Xtended/XT/)
+**Get recovery or firmware for your device:** [**HERE**](https://sourceforge.net/projects/my-builds/files/Project-Xtended/XT/)
