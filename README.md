@@ -4,17 +4,17 @@
 - Flash on your own risk/knowledge.
 - Take your data backup before proceed.
 ~~~
-<b>Flashing Instructions for OnePlus 7t (hotdogb) and OnePlus 7tPro (hotdog):</b>
+<a href="#"><img src="assets/oneplus7.png" height="60" /></a> 
 <details>
 <br>
-<summary>Click Here to Expand</summary>
+<summary>Click Here to Expand :arrow_down: </summary>
 
 <b> Follow before proceed: </b>
 - Backup all your Data
 - OxygenOS 12 in both slot
 - Gapps included so no need to flash/sideload GApps
-- Download Recovery package : [**HERE**](https://sourceforge.net/projects/my-builds/files/Project-Xtended/XT/)
-- Download Sideload copy-partition zip [**HERE**](https://sourceforge.net/projects/my-builds/files/Project-Xtended/XT/copy-partitions-20220613-signed.zip/download)
+- Download Recovery package: [**HERE**](https://sourceforge.net/projects/my-builds/files/Project-Xtended/XT/)
+- Download Sideload copy-partition zip: [**HERE**](https://sourceforge.net/projects/my-builds/files/Project-Xtended/XT/copy-partitions-20220613-signed.zip/download)
 
 <b> Now start Flashing </b>
 1. Reboot to bootloader.
@@ -30,17 +30,17 @@
 
 ----
 
-<b>Flashing Instructions for OnePlus 9 (lemonade) & 9Pro (lemonadep):</b>
+<a href="#"><img src="assets/oneplus9.png" height="60" /></a> 
 <details>
 <br>
-<summary>Click Here to expand</summary>
+<summary>Click Here to expand :arrow_down: </summary>
 
 <b> Follow before proceed: </b>
 - Backup all your Data
 - It's mandatory to be on C66 firmware
 - Gapps included so no need to flash/sideload GApps
-- Download Recovery package: [HERE](https://sourceforge.net/projects/my-builds/files/Project-Xtended/XT/)
-- Download C66 firmware: [HERE](https://sourceforge.net/projects/my-builds/files/Project-Xtended/XT/)
+- Download Recovery package: [**HERE**](https://sourceforge.net/projects/my-builds/files/Project-Xtended/XT/)
+- Download C66 firmware: [**HERE**](https://sourceforge.net/projects/my-builds/files/Project-Xtended/XT/)
 
 <b> Now start Flashing </b>
 1. Extract recovery package zip
@@ -56,16 +56,15 @@
 </details>
 
 ----
-
-<b>Flashing Instructions for Nothing phone1 (Spacewar):</b>
+<a href="#"><img src="assets/spacewar.png" height="60" /></a>
 <details>
 <br>
-<summary>Click Here to Expand</summary>
+<summary>Click Here to Expand :arrow_down: </summary>
 
 <b> Follow before proceed: </b>
 - Backup all your Data
 - Gapps included so no need to flash/sideload GApps
-- Recovery Package:[HERE](https://sourceforge.net/projects/my-builds/files/Project-Xtended/XT/Spacewar/Spacewar-RecoveryFlash.zip/download)
+- Recovery Package: [**HERE**](https://sourceforge.net/projects/my-builds/files/Project-Xtended/XT/Spacewar/Spacewar-RecoveryFlash.zip/download)
 
 <b> Now start Flashing </b>
 1. Reboot to bootloader & connect your phone to PC
@@ -84,7 +83,7 @@
 <b>To update ROM :</b>
 <details>
 <br>
-<summary>Already on Xtended and want to update new version:</summary>
+<summary>Already on Xtended and want to update new version: :arrow_down: </summary>
 
 1. Reboot to recovery
 2. Apply update > Apply from ADB
