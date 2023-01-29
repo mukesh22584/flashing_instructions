@@ -37,18 +37,16 @@
 
 <b> Follow before proceed: </b>
 - Backup all your Data
-- It's mandatory to be on C66 firmware
+- Update your device to OOS 13
+- Firmware F18 already included
 - Gapps included so no need to flash/sideload GApps
 - Download Recovery package: [**HERE**](https://sourceforge.net/projects/my-builds/files/Project-Xtended/XT/)
-- Download C66 firmware: [**HERE**](https://sourceforge.net/projects/my-builds/files/Project-Xtended/XT/)
 
 <b> Now start Flashing </b>
 1. Extract recovery package zip
 2. Reboot to bootloader & connect your phone to PC
 3. Double click on __flash.bat__
-4. Now reboot to recovery > advance > fastboot
-5. Extract firmware zip, Go to fastbootD mode & double click on __flash.bat__
-6. Back to recovery home page & tap Factory reset > Format data/factory reset
+6. Reboot to recovery home page & tap Factory reset > Format data/factory reset
 6. Back to recovery home page & tap > Apply update > Apply from ADB
 7. Now sideload rom using command *__adb sideload <rom_filename>.zip__*
 8. Now reboot to system.
